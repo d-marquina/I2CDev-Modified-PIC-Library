@@ -29,7 +29,7 @@ extern "C" {
 #include <xc.h>
 #include <stdint.h>
 #include <stdbool.h>
-#include <plib/i2c.h>
+#include "i2c.h"
 
 bit I2CdevModReadBytes(uint8_t devAddr, uint8_t fRegAddr, uint8_t nBytes, uint8_t* pVar);
 bit I2CdevModReadByte(uint8_t devAddr, uint8_t regAddr, uint8_t* pVar);
